@@ -8,5 +8,80 @@
             "name": "numEnd",
             "type": "AMAZON.NUMBER"
             }]
+    }, {
+        "intent": "randtwo",
+        "slots": [{
+            "name": "one",
+            "type": "AMAZON.LITERAL"
+        }, {
+            "name": "two",
+            "type": "AMAZON.LITERAL"
+            }]
+    }, {
+        "intent": "randthree",
+        "slots": [{
+            "name": "one",
+            "type": "AMAZON.LITERAL"
+        }, {
+            "name": "two",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "three",
+            "type": "AMAZON.LITERAL"
+            }]
+    },{
+        "intent": "randfour",
+        "slots": [{
+            "name": "one",
+            "type": "AMAZON.LITERAL"
+        }, {
+            "name": "two",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "three",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "four",
+            "type": "AMAZON.LITERAL"
+            }]
+    },{
+        "intent": "randfive",
+        "slots": [{
+            "name": "one",
+            "type": "AMAZON.LITERAL"
+        }, {
+            "name": "two",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "three",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "four",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "five",
+            "type": "AMAZON.LITERAL"
+            }]
+    },{
+        "intent": "randsix",
+        "slots": [{
+            "name": "one",
+            "type": "AMAZON.LITERAL"
+        }, {
+            "name": "two",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "three",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "four",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "five",
+            "type": "AMAZON.LITERAL"
+            }, {
+            "name": "six",
+            "type": "AMAZON.LITERAL"
+            }]
     }]
 }

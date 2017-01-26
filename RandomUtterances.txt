@@ -3,3 +3,13 @@ RandomBetween choose a random number between {num} and {numEnd}
 RandomBetween give me a random number between {num} and {numEnd}
 RandomBetween {num} and {numEnd}
 RandomBetween {num} {numEnd}
+
+randtwo {hi|one} {hi|two}
+
+randthree {hi|one} {hi|two} {hi|three}
+
+randfour {hi|one} {hi|two} {hi|three} {hi|four}
+
+randfive {hi|one} {hi|two} {hi|three} {hi|four} {hi|five}
+
+randsix {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} {hi|six}
