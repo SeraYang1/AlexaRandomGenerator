@@ -1,0 +1,12 @@
+{
+    "intents": [{
+        "intent": "RandomBetween",
+        "slots": [{
+            "name": "num",
+            "type": "AMAZON.NUMBER"
+        }, {
+            "name": "numEnd",
+            "type": "AMAZON.NUMBER"
+            }]
+    }]
+}
