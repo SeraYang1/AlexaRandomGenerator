@@ -12,7 +12,7 @@ exports.handler = (event, context) => {
                 console.log("LAUNCH REQUEST")
                 context.succeed(
                     generateResponse(
-                        buildSpeechletResponse(`I can help you generate random responses.`, false)
+                        buildSpeechletResponse(`I can help you generate random responses. You can give me two numbers or up to six options to choose between.`, false)
                     )
                 )
                 break;
