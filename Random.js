@@ -38,9 +38,9 @@ exports.handler = (event, context) => {
                         
                         break;
 
-                    case "two":
+                    case "randtwo":
                         var rand = Math.floor(Math.random() * 2);
-                        var val=" ";
+                        var val='hi';
                         if (rand == 0){
                             val = event.request.intent.slots.one.value;
                         }
@@ -55,7 +55,7 @@ exports.handler = (event, context) => {
                         
                         break;
 
-                    case "three":
+                    case "randthree":
                         var rand = Math.floor(Math.random() * 3);
                         var val=" ";
                         if (rand == 0){
@@ -75,7 +75,7 @@ exports.handler = (event, context) => {
                         
                         break;
 
-                    case "four":
+                    case "randfour":
                         var rand = Math.floor(Math.random() * 4);
                         var val=" ";
                         if (rand == 0){
@@ -98,7 +98,7 @@ exports.handler = (event, context) => {
                         
                         break;
 
-                    case "five":
+                    case "randfive":
                         var rand = Math.floor(Math.random() * 5);
                         var val=" ";
                         if (rand == 0){
@@ -124,7 +124,7 @@ exports.handler = (event, context) => {
                         
                         break;
 
-                    case "six":
+                    case "randsix":
                         var rand = Math.floor(Math.random() * 6);
                         var val=" ";
                         if (rand == 0){
