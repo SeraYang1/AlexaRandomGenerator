@@ -153,7 +153,22 @@ exports.handler = (event, context) => {
                         
                         break;
 
+                    case "Help":
+                        context.succeed(
+                            generateResponse(
+                                buildSpeechletResponse(`Hello! Welcome to unofficial Random Generator. You can give me two numbers for me to choose a random number between, such as one and ten, or you can give me a list of up to six items for me to choose from.`, false),{}
+                        )
+                            )
+                        break;
 
+                    case "Terminate":
+                        context.succeed(
+                            generateResponse(
+                                buildSpeechletResponse(`Thanks for using unofficial Random Generator. See you around!`, true), {}
+                            )
+                        )
+                        console.log('SESSION ENDED REQUEST')
+                        break;
                         // default:
                         //     throw "Invalid intent"
                 }

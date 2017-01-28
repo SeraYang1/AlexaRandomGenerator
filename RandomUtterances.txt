@@ -38,3 +38,13 @@ randsix the options are {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} {hi|six
 randsix {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} and {hi|six}
 randsix choose between {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} and {hi|six}
 randsix the options are {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} and {hi|six}
+
+Help help 
+Help help me
+Help how do i use this app
+Help how do i use random generator
+
+Terminate stop
+Terminate thanks
+Terminate thank you 
+Terminate that is good 

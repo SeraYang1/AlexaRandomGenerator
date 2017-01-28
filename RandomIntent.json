@@ -83,5 +83,9 @@
             "name": "six",
             "type": "AMAZON.LITERAL"
             }]
+    }, {
+        "intent": "Help"
+    }, {
+        "intent": "Terminate"
     }]
 }
