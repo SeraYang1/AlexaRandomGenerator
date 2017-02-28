@@ -4,47 +4,47 @@ RandomBetween give me a random number between {num} and {numEnd}
 RandomBetween {num} and {numEnd}
 RandomBetween {num} {numEnd}
 
-randtwo {hi|one} {hi|two}
-randtwo choose between {hi|one} {hi|two}
-randtwo the options are {hi|one} {hi|two}
-randtwo {hi|one} and {hi|two}
-randtwo choose between {hi|one} and {hi|two}
-randtwo the options are {hi|one} and {hi|two}
+randtwo {red|one} {blue|two}
+randtwo choose between {red|one} {blue|two}
+randtwo the options are {red|one} {blue|two}
+randtwo {red|one} and {blue|two}
+randtwo choose between {red|one} and {blue|two}
+randtwo the options are {red|one} and {blue|two}
 
-randthree {hi|one} {hi|two} {hi|three}
-randthree choose between {hi|one} {hi|two} {hi|three}
-randthree the options are {hi|one} {hi|two} {hi|three}
-randthree {hi|one} {hi|two} and {hi|three}
-randthree choose between {hi|one} {hi|two} and {hi|three}
-randthree the options are {hi|one} {hi|two} and {hi|three}
+randthree {red|one} {blue|two} {green|three}
+randthree choose between {red|one} {blue|two} {green|three}
+randthree the options are {red|one} {blue|two} {green|three}
+randthree {red|one} {blue|two} and {green|three}
+randthree choose between {red|one} {blue|two} and {green|three}
+randthree the options are {red|one} {blue|two} and {green|three}
 
-randfour {hi|one} {hi|two} {hi|three} {hi|four}
-randfour choose between {hi|one} {hi|two} {hi|three} {hi|four}
-randfour the options are {hi|one} {hi|two} {hi|three} {hi|four}
-randfour {hi|one} {hi|two} {hi|three} and {hi|four}
-randfour choose between {hi|one} {hi|two} {hi|three} and {hi|four}
-randfour the options are {hi|one} {hi|two} {hi|three} and {hi|four}
+randfour {red|one} {blue|two} {green|three} {yellow|four}
+randfour choose between {red|one} {blue|two} {green|three} {yellow|four}
+randfour the options are {red|one} {blue|two} {green|three} {yellow|four}
+randfour {red|one} {blue|two} {green|three} and {yellow|four}
+randfour choose between {red|one} {blue|two} {green|three} and {yellow|four}
+randfour the options are {red|one} {blue|two} {green|three} and {yellow|four}
 
-randfive {hi|one} {hi|two} {hi|three} {hi|four} {hi|five}
-randfive choose between {hi|one} {hi|two} {hi|three} {hi|four} {hi|five}
-randfive the options are {hi|one} {hi|two} {hi|three} {hi|four} {hi|five}
-randfive {hi|one} {hi|two} {hi|three} {hi|four} and {hi|five}
-randfive choose between {hi|one} {hi|two} {hi|three} {hi|four} and {hi|five}
-randfive the options are {hi|one} {hi|two} {hi|three} {hi|four} and {hi|five}
+randfive {red|one} {blue|two} {green|three} {yellow|four} {orange|five}
+randfive choose between {red|one} {blue|two} {green|three} {yellow|four} {orange|five}
+randfive the options are {red|one} {blue|two} {green|three} {yellow|four} {orange|five}
+randfive {red|one} {blue|two} {green|three} {yellow|four} and {orange|five}
+randfive choose between {red|one} {blue|two} {green|three} {yellow|four} and {orange|five}
+randfive the options are {red|one} {blue|two} {green|three} {yellow|four} and {orange|five}
 
-randsix {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} {hi|six}
-randsix choose between {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} {hi|six}
-randsix the options are {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} {hi|six}
-randsix {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} and {hi|six}
-randsix choose between {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} and {hi|six}
-randsix the options are {hi|one} {hi|two} {hi|three} {hi|four} {hi|five} and {hi|six}
+randsix {red|one} {blue|two} {green|three} {yellow|four} {orange|five} {purple|six}
+randsix choose between {red|one} {blue|two} {green|three} {yellow|four} {orange|five} {purple|six}
+randsix the options are {red|one} {blue|two} {green|three} {yellow|four} {orange|five} {purple|six}
+randsix {red|one} {blue|two} {green|three} {yellow|four} {orange|five} and {purple|six}
+randsix choose between {red|one} {blue|two} {green|three} {yellow|four} {orange|five} and {purple|six}
+randsix the options are {red|one} {blue|two} {green|three} {yellow|four} {orange|five} and {purple|six}
 
-Help help 
+Help help
 Help help me
 Help how do i use this app
 Help how do i use random generator
 
 Terminate stop
 Terminate thanks
-Terminate thank you 
-Terminate that is good 
+Terminate thank you
+Terminate that is good

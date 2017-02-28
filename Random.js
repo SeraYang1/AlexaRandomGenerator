@@ -12,7 +12,8 @@ exports.handler = (event, context) => {
                 console.log("LAUNCH REQUEST")
                 context.succeed(
                     generateResponse(
-                        buildSpeechletResponse(`I can help you generate random responses. You can give me two numbers or up to six options to choose between.`, false)
+                        buildSpeechletResponse(`I can help you generate random responses. You can give me two numbers or up to six options to choose between.
+                          For example, you can say choose a random number from one to ten.`, false)
                     )
                 )
                 break;
@@ -29,13 +30,13 @@ exports.handler = (event, context) => {
                         var numEnd = parseInt(numEndSlot.value);
                         var diff = numEnd - num;
                         var rand = parseInt(Math.random() * diff + num);
-                        
+
                             context.succeed(
                                 generateResponse(
                                     buildSpeechletResponse(`Your random number is ${rand}. Anything else?`, false), {}
                                 )
                             )
-                        
+
                         break;
 
                     case "randtwo":
@@ -52,7 +53,7 @@ exports.handler = (event, context) => {
                                     buildSpeechletResponse(`Your random choice is ${val}. Anything else?`, false), {}
                                 )
                             )
-                        
+
                         break;
 
                     case "randthree":
@@ -65,14 +66,14 @@ exports.handler = (event, context) => {
                             val = event.request.intent.slots.two.value.toLowerCase();
                         }
                         else {
-                            val = event.request.intent.slots.three.value.toLowerCase();                            
+                            val = event.request.intent.slots.three.value.toLowerCase();
                         }
                             context.succeed(
                                 generateResponse(
                                     buildSpeechletResponse(`Your random choice is ${val}. Anything else?`, false), {}
                                 )
                             )
-                        
+
                         break;
 
                     case "randfour":
@@ -95,7 +96,7 @@ exports.handler = (event, context) => {
                                     buildSpeechletResponse(`Your random choice is ${val}. Anything else?`, false), {}
                                 )
                             )
-                        
+
                         break;
 
                     case "randfive":
@@ -121,7 +122,7 @@ exports.handler = (event, context) => {
                                     buildSpeechletResponse(`Your random choice is ${val}. Anything else?`, false), {}
                                 )
                             )
-                        
+
                         break;
 
                     case "randsix":
@@ -150,13 +151,13 @@ exports.handler = (event, context) => {
                                     buildSpeechletResponse(`Your random choice is ${val}. Anything else?`, false), {}
                                 )
                             )
-                        
+
                         break;
 
                     case "Help":
                         context.succeed(
                             generateResponse(
-                                buildSpeechletResponse(`Hello! Welcome to unofficial Random Generator. You can give me two numbers for me to choose a random number between, such as one and ten, or you can give me a list of up to six items for me to choose from.`, false),{}
+                                buildSpeechletResponse(`Hello! Welcome to unofficial Random Generator. You can give me two numbers for me to choose a random number between, such as one and ten, or you can give me a list of up to six items for me to choose from. For example, you can say choose a random number between one and ten.`, false),{}
                         )
                             )
                         break;
